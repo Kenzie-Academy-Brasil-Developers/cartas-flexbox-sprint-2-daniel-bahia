@@ -13,11 +13,17 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .card__description {
     /* display, flex-direction, justify-content, align-items */
     padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .card__descriptionIcon {font-size: 32px; margin-bottom: 10px;}
@@ -45,11 +51,12 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    display: flex;
   }
   
     .cardGroup__card {
       /* flex-grow, flex-shrink, flex-basis */
-  
+      flex: 1;
       border: none;
       border-radius: 0;
     }
@@ -60,4 +67,5 @@ html {
   
     .cardGroup__cardDescription {
       /* flex-grow, flex-shrink, flex-basis */
+      flex: 1
     }
