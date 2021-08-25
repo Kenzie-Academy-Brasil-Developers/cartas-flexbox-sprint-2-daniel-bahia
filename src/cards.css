@@ -52,6 +52,7 @@ html {
     border-radius: 4px;
     overflow: hidden;
     display: flex;
+    max-width: 320px;
   }
   
     .cardGroup__card {
@@ -69,3 +70,9 @@ html {
       /* flex-grow, flex-shrink, flex-basis */
       flex: 1
     }
+
+@media (min-width: 768px){
+    .cardGroup{
+        max-width: 710px;
+     }
+}
